@@ -1,0 +1,56 @@
+1 -logL: 1136.38 SSB(Vir_Start_End): 1.66016e+06 1.65948e+06 370977
+1 Files: ss3.dat em.ctl
+1 N_iter: 322 runtime(sec): 7 starttime: Tue Jul 05 12:47:52 2022
+1#V3.30.19.01;_safe;_compile_date:_Apr 15 2022;_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_12.3
+1 F_Method: 3 Retro_YR: 75 Forecast_Type: 4 MSY_Type: 2
+1 Comment S_1 #C starter file written by R function SS_writestarter
+1 Comment S_2 #C rerun model to get more complete formatting in starter.ss_new
+1 Comment S_3 #C should work with SS version: 3.30
+1 Comment S_4 #C file write time: 2022-07-05 12:47:51
+1 Comment D_1 #C North Sea/Skagerrak/Eastern Channel Cod
+1 Comment C_1 #C file created using the SS_writectl function in the R package r4ss
+1 Comment C_2 #C file write time: 2022-07-05 12:47:52
+1 Comment F_1 #C forecast file written by R function SS_writeforecast
+1 Comment F_2 #C rerun model to get more complete formatting in forecast.ss_new
+1 Comment F_3 #C should work with SS version: SSv3.21_or_later
+1 Comment F_4 #C file write time: 2015-03-14 16:01:17
+1 Like_Emph Total 1 
+1 Like_Value Total 1136.38
+1 Like_Emph Indices All  0 1
+1 Like_Value Indices -48.1719  0 -48.1719
+1 Like_Emph LenComp All  1 0
+1 Like_Value LenComp 926.335  926.335 0
+1 Like_Emph AgeComp All  0 1
+1 Like_Value AgeComp 258.868  0 258.868
+1 Like_Emph Catch All  1 1
+1 Like_Value Catch 8.27703e-12  8.27703e-12 0
+1 Like_Emph init_equ All  1 1
+1 Like_Value Init_Equ 0  8.27703e-12 0
+1 Like_Comp Recruits Regime Fcast_Recr Biasadj Priors ParmDevs CrashPen
+1 Like_Emph 1 1 1 1 1 1
+1 Like_Value*Emph -0.655865 0 0 0 0 0
+1 TimeSeries Yr Vir Equ  26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76F 
+1 Timeseries SpawnBio  1.66016e+06 1.66016e+06 1.65948e+06 1.64415e+06 1.62225e+06 1.60421e+06 1.58906e+06 1.57137e+06 1.54008e+06 1.47282e+06 1.36657e+06 1.22502e+06 1.06834e+06 914111 787128 712032 721671 791109 872307 974041 1.09923e+06 1.21525e+06 1.27376e+06 1.23415e+06 1.11337e+06 954491 831674 740705 682694 614781 558073 538134 613534 730148 792326 796003 736065 671191 591101 503045 425436 372449 378203 449758 527132 550003 537463 540290 539556 507016 450586 370977 316613
+1 Timeseries Recruit  431426 431426 455320 638476 444463 364870 291083 207651 210448 224688 166486 177693 988121 372892 279395 1.01512e+06 814324 850291 932097 251912 345433 266766 509067 399899 429294 164590 307421 225849 1.13967e+06 868303 355185 820091 175837 632401 279868 166644 190734 184749 345212 751711 565572 212190 322640 653964 461852 181111 335330 134504 151470 459785 319496 481090 431426
+1 Timeseries TotBio  0 2.34972e+06 2.34972e+06 2.36493e+06 2.37664e+06 2.38489e+06 2.39419e+06 2.38366e+06 2.33055e+06 2.21289e+06 2.03269e+06 1.82425e+06 1.60872e+06 1.40505e+06 1.26441e+06 1.25428e+06 1.32586e+06 1.44998e+06 1.59517e+06 1.80233e+06 2.07273e+06 2.26889e+06 2.30527e+06 2.16721e+06 1.90416e+06 1.67949e+06 1.50785e+06 1.40079e+06 1.271e+06 1.1491e+06 1.06205e+06 1.15271e+06 1.35334e+06 1.59558e+06 1.67913e+06 1.60628e+06 1.52156e+06 1.34168e+06 1.19301e+06 988032 820088 763172 832946 989187 1.12243e+06 1.14329e+06 1.11943e+06 1.13029e+06 1.13549e+06 1.04755e+06 901666 785141 692909 699824
+1 Timeseries SmryBio-1  0 2.34964e+06 2.34964e+06 2.36485e+06 2.37652e+06 2.38481e+06 2.39413e+06 2.38361e+06 2.33051e+06 2.21286e+06 2.03265e+06 1.82422e+06 1.60869e+06 1.40487e+06 1.26434e+06 1.25423e+06 1.32567e+06 1.44983e+06 1.59501e+06 1.80215e+06 2.07269e+06 2.26883e+06 2.30522e+06 2.16712e+06 1.90409e+06 1.67941e+06 1.50782e+06 1.40074e+06 1.27096e+06 1.14889e+06 1.06189e+06 1.15264e+06 1.35319e+06 1.59555e+06 1.67902e+06 1.60623e+06 1.52153e+06 1.34164e+06 1.19297e+06 987967 819948 763067 832906 989127 1.12231e+06 1.14321e+06 1.11939e+06 1.13022e+06 1.13547e+06 1.04752e+06 901580 785082 692820 699744
+1 Timeseries TotCatch  0 0 0 21709.5 42693.7 63274.3 82313.3 98854.9 121092 140516 142292 142084 134862 131982 124583 113873 104154 158934 169373 161160 228662 289111 341430 380556 324192 289890 238477 248015 224021 228151 186073 182525 163838 288861 368971 332463 374263 285569 298099 245868 181630 151090 123173 130161 213548 263015 228416 204483 253659 260752 214000 218296 162416 0
+1 Timeseries RetCatch  0 0 0 21709.5 42693.7 63274.3 82313.3 98854.9 121092 140516 142292 142084 134862 131982 124583 113873 104154 158934 169373 161160 228662 289111 341430 380556 324192 289890 238477 248015 224021 228151 186073 182525 163838 288861 368971 332463 374263 285569 298099 245868 181630 151090 123173 130161 213548 263015 228416 204483 253659 260752 214000 218296 162416 0
+1 Mgmt_Quant  1.66016e+06 2.34972e+06 2.34964e+06 431426 664065 0.4
+1 Parm Labels  NatM_uniform_Fem_GP_1 L_at_Amin_Fem_GP_1 L_at_Amax_Fem_GP_1 VonBert_K_Fem_GP_1 CV_young_Fem_GP_1 CV_old_Fem_GP_1 Wtlen_1_Fem_GP_1 Wtlen_2_Fem_GP_1 Mat50%_Fem_GP_1 Mat_slope_Fem_GP_1 Eggs/kg_inter_Fem_GP_1 Eggs/kg_slope_wt_Fem_GP_1 RecrDist_GP_1 RecrDist_Area_1 RecrDist_month_1 CohortGrowDev FracFemale_GP_1 SR_LN(R0) SR_BH_steep SR_sigmaR SR_regime SR_autocorr Main_InitAge_3 Main_InitAge_2 Main_InitAge_1 Main_RecrDev_26 Main_RecrDev_27 Main_RecrDev_28 Main_RecrDev_29 Main_RecrDev_30 Main_RecrDev_31 Main_RecrDev_32 Main_RecrDev_33 Main_RecrDev_34 Main_RecrDev_35 Main_RecrDev_36 Main_RecrDev_37 Main_RecrDev_38 Main_RecrDev_39 Main_RecrDev_40 Main_RecrDev_41 Main_RecrDev_42 Main_RecrDev_43 Main_RecrDev_44 Main_RecrDev_45 Main_RecrDev_46 Main_RecrDev_47 Main_RecrDev_48 Main_RecrDev_49 Main_RecrDev_50 Main_RecrDev_51 Main_RecrDev_52 Main_RecrDev_53 Main_RecrDev_54 Main_RecrDev_55 Main_RecrDev_56 Main_RecrDev_57 Main_RecrDev_58 Main_RecrDev_59 Main_RecrDev_60 Main_RecrDev_61 Main_RecrDev_62 Main_RecrDev_63 Main_RecrDev_64 Main_RecrDev_65 Main_RecrDev_66 Main_RecrDev_67 Main_RecrDev_68 Main_RecrDev_69 Main_RecrDev_70 Main_RecrDev_71 Main_RecrDev_72 Main_RecrDev_73 Main_RecrDev_74 Main_RecrDev_75 ForeRecr_76 LnQ_base_Fleet2(2) minage@sel=1_Fleet1(1) maxage@sel=1_Fleet1(1) minage@sel=1_Fleet2(2) maxage@sel=1_Fleet2(2)
+1 Parm Values   0.35286 3 117.9 0.16 0.1 0.1 5.58883e-06 3.18851 4.8832 -0.9654 1 0 0 0 0 1 0.5  12.9749 1 0.6 0 0  -0.100592 0.257556 0.144729 0.053905 0.391988 0.209769 0.012444 -0.213487 -0.551235 -0.537859 -0.472383 -0.772186 -0.707037 1.00871 0.0341929 -0.25447 1.03567 0.815261 0.858483 0.95034 -0.358018 -0.042297 -0.300724 0.345484 0.104116 0.175046 -0.78364 -0.158878 -0.46723 1.1514 0.879444 -0.0144572 0.822319 -0.717536 0.562428 -0.252779 -0.771237 -0.636215 -0.668096 -0.0429388 0.735256 0.450741 -0.529613 -0.110559 0.595957 0.248148 -0.687989 -0.0719812 -0.985499 -0.866709 0.243663 -0.12035 0.108958  0  -0.00527706  4 20 1 20 
+1 MG_parm  NatM_uniform_Fem_GP_1 L_at_Amin_Fem_GP_1 L_at_Amax_Fem_GP_1 VonBert_K_Fem_GP_1 CV_young_Fem_GP_1 CV_old_Fem_GP_1 Wtlen_1_Fem_GP_1 Wtlen_2_Fem_GP_1 Mat50%_Fem_GP_1 Mat_slope_Fem_GP_1 Eggs/kg_inter_Fem_GP_1 Eggs/kg_slope_wt_Fem_GP_1 RecrDist_GP_1 RecrDist_Area_1 RecrDist_month_1 CohortGrowDev FracFemale_GP_1
+1 MG_parm  0.35286 3 117.9 0.16 0.1 0.1 5.58883e-06 3.18851 4.8832 -0.9654 1 0 0 0 0 1 0.5
+1 SR_parm  SR_LN(R0) SR_BH_steep SR_sigmaR SR_regime SR_autocorr
+1 SR_parm  12.9749 1 0.6 0 0 
+1 Recr_main  Main_InitAge_3 Main_InitAge_2 Main_InitAge_1 Main_RecrDev_26 Main_RecrDev_27 Main_RecrDev_28 Main_RecrDev_29 Main_RecrDev_30 Main_RecrDev_31 Main_RecrDev_32 Main_RecrDev_33 Main_RecrDev_34 Main_RecrDev_35 Main_RecrDev_36 Main_RecrDev_37 Main_RecrDev_38 Main_RecrDev_39 Main_RecrDev_40 Main_RecrDev_41 Main_RecrDev_42 Main_RecrDev_43 Main_RecrDev_44 Main_RecrDev_45 Main_RecrDev_46 Main_RecrDev_47 Main_RecrDev_48 Main_RecrDev_49 Main_RecrDev_50 Main_RecrDev_51 Main_RecrDev_52 Main_RecrDev_53 Main_RecrDev_54 Main_RecrDev_55 Main_RecrDev_56 Main_RecrDev_57 Main_RecrDev_58 Main_RecrDev_59 Main_RecrDev_60 Main_RecrDev_61 Main_RecrDev_62 Main_RecrDev_63 Main_RecrDev_64 Main_RecrDev_65 Main_RecrDev_66 Main_RecrDev_67 Main_RecrDev_68 Main_RecrDev_69 Main_RecrDev_70 Main_RecrDev_71 Main_RecrDev_72 Main_RecrDev_73 Main_RecrDev_74 Main_RecrDev_75
+1 Recr_main  -0.100592 0.257556 0.144729 0.053905 0.391988 0.209769 0.012444 -0.213487 -0.551235 -0.537859 -0.472383 -0.772186 -0.707037 1.00871 0.0341929 -0.25447 1.03567 0.815261 0.858483 0.95034 -0.358018 -0.042297 -0.300724 0.345484 0.104116 0.175046 -0.78364 -0.158878 -0.46723 1.1514 0.879444 -0.0144572 0.822319 -0.717536 0.562428 -0.252779 -0.771237 -0.636215 -0.668096 -0.0429388 0.735256 0.450741 -0.529613 -0.110559 0.595957 0.248148 -0.687989 -0.0719812 -0.985499 -0.866709 0.243663 -0.12035 0.108958
+1 Recr_fore  ForeRecr_76
+1 Recr_fore  0
+1 init_F 
+1 init_F 
+1 Q_parm  LnQ_base_Fleet2(2)
+1 Q_parm  -0.00527706
+1 Sel_parm  minage@sel=1_Fleet1(1) maxage@sel=1_Fleet1(1) minage@sel=1_Fleet2(2) maxage@sel=1_Fleet2(2)
+1 Sel_parm  4 20 1 20
+
