@@ -30,7 +30,6 @@ NAA_SS = SS_report$natage[SS_report$natage$`Beg/Mid` == 'B' & SS_report$natage$Y
 wham_data = list()
 wham_data$ages = 1:n_ages
 wham_data$lengths = fish_len
-wham_data$CV_len = c(0.1, 0.1) # age 1 and oldest
 wham_data$years = min_year:max_year
 
 wham_data$n_fleets = 1L
@@ -96,8 +95,8 @@ my_input = prepare_wham_input(model_name="whamGrowth1",
                                             N1_pars = as.vector(as.matrix(NAA_SS[1,])), 
                                             recruit_pars = c(500000)),
                               growth = list(model = 'vB_classic',
-                                            re = c('none', 'none', 'none'), 
-                                            init_vals = c(0.16, 117.9, 0.835)), # K, Linf, t0
+                                            re = c('none', 'none', 'none', 'none', 'none'), 
+                                            init_vals = c(0.16, 117.9, 3, 0.1, 0.1)), # K, Linf, t0
                               catchability = list(re = 'none', initial_q = 1, q_lower = 0,
                                                   q_upper = 1000, prior_sd = NA),
                               age_comp = 'multinomial',
