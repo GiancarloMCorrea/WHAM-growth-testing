@@ -1,6 +1,0 @@
-1 reset upper end of F_reporting_ages to be nages-2  
-2 NOTE: This model has just one settlement event. Changing to recr_dist_method 4 and removing the recruitment distribution parameters at the end of the MG parms section (below growth parameters) will produce identical results and simplify the model.
-3 Maximum pop size bin:_120; is within 5% of L at maxage for sex: 1; Gpat: 1 settle: 1; L= 114.199
-4 warning: poor convergence in Fmsy, final dy/dy2= -0.424951
-5 Fmsy.mey is close to max allowed; check for convergence 
-N warnings: 5

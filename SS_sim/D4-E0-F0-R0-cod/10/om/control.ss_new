@@ -6,7 +6,7 @@
 #_Source_code_at:_https://github.com/nmfs-stock-synthesis/stock-synthesis
 
 #C file created using the SS_writectl function in the R package r4ss
-#C file write time: 2022-07-05 17:11:25
+#C file write time: 2022-09-01 12:47:33
 #_data_and_control_files: ss3.dat // om.ctl
 0  # 0 means do not read wtatage.ss; 1 means read and use wtatage.ss and also read and use growth parameters
 1  #_N_Growth_Patterns (Growth Patterns, Morphs, Bio Patterns, GP are terms used interchangeably in SS3)
@@ -72,8 +72,8 @@
  0 1 0.36 0 0 0 -9 0 0 0 0 0 0 0 # NatM_uniform_Fem_GP_1
 # Sex: 1  BioPattern: 1  Growth
  0 40 3 0 0 0 3 0 0 0 0 0 0 0 # L_at_Amin_Fem_GP_1
- 60 150 117.9 0 0 0 3 0 0 0 0 0 0 0 # L_at_Amax_Fem_GP_1
- 0 1 0.16 0 0 0 3 201 0 0 0 0 0 0 # VonBert_K_Fem_GP_1
+ 60 150 117.9 0 0 0 3 201 0 0 0 0 0 0 # L_at_Amax_Fem_GP_1
+ 0 1 0.16 0 0 0 3 0 0 0 0 0 0 0 # VonBert_K_Fem_GP_1
  0 10 0.1 0 0 0 3 0 0 0 0 0 0 0 # CV_young_Fem_GP_1
  0 20 0.1 0 0 0 3 0 0 0 0 0 0 0 # CV_old_Fem_GP_1
 # Sex: 1  BioPattern: 1  WtLen
@@ -100,7 +100,7 @@
 #
 # timevary MG parameters 
 #_ LO HI INIT PRIOR PR_SD PR_type  PHASE
- -2 2 1 0 99 0 -5 # VonBert_K_Fem_GP_1_ENV_add
+ -2 2 1 0 99 0 -5 # L_at_Amax_Fem_GP_1_ENV_add
 # info on dev vectors created for MGparms are reported with other devs after tag parameter section 
 #
 #_seasonal_effects_on_biology_parms
@@ -350,7 +350,7 @@
 # deviation vectors for timevary parameters
 #  base   base first block   block  env  env   dev   dev   dev   dev   dev
 #  type  index  parm trend pattern link  var  vectr link _mnyr  mxyr phase  dev_vector
-#      1     4     1     0     0     2     1     0     0     0     0     0
+#      1     3     1     0     0     2     1     0     0     0     0     0
      #
 # Input variance adjustments factors: 
  #_1=add_to_survey_CV
@@ -375,7 +375,7 @@
 #  0 0 0 0 #_CPUE/survey:_1
 #  1 1 1 1 #_CPUE/survey:_2
 #  1 1 1 1 #_lencomp:_1
-#  0 0 0 0 #_lencomp:_2
+#  1 1 1 1 #_lencomp:_2
 #  0 0 0 0 #_agecomp:_1
 #  1 1 1 1 #_agecomp:_2
 #  1 1 1 1 #_init_equ_catch1
