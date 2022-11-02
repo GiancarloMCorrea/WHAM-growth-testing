@@ -6,7 +6,7 @@
 #_Source_code_at:_https://github.com/nmfs-stock-synthesis/stock-synthesis
 
 #C file created using the SS_writectl function in the R package r4ss
-#C file write time: 2022-09-01 12:47:33
+#C file write time: 2022-11-01 10:29:55
 #_data_and_control_files: ss3.dat // om.ctl
 0  # 0 means do not read wtatage.ss; 1 means read and use wtatage.ss and also read and use growth parameters
 1  #_N_Growth_Patterns (Growth Patterns, Morphs, Bio Patterns, GP are terms used interchangeably in SS3)

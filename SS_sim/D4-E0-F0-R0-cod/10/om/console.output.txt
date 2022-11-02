@@ -1,0 +1,620 @@
+###
+console output
+2022-11-01 10:30:18
+###
+ 
+ reading from starter.ss
+ reading from data file
+Data read sucessful 999
+
+ reading forecast file 
+ reading from control file
+End of control file successful! 999
+ end of parameter section 
+ ready to evaluate once in prelim
+
+
+Estimating...please wait...
+0 0 -log(L): 0  between 
+ MG setup OK 
+ growth1 OK
+ natmort OK
+ migr OK
+ selex OK, ready to call ALK and fishselex 
+ ready for virgin age struc 
+ ready for initial age struc 
+ OK with initial conditions 
+ OK with time series
+ did survey obj_fun  0 470415
+ did lencomp obj_fun   1635.75 820.926
+ did agecomp obj_fun  0 1564.4
+ initequ_catch -log(L)  0 0
+ catch -log(L)  1.44294e+08 0
+ did recruitdev obj_fun 34.7796 0 0.72
+ OK with obj_func 1.44768e+08
+
+ - final statistics:
+1 variables; iteration 0; function evaluation 0
+Function value   1.4477e+08; maximum gradient component mag  -3.1391e-14
+Exit code = 0;  converg criter   1.0000e+01
+Var   Value    Gradient   |Var   Value    Gradient   |Var   Value    Gradient
+  1 -0.00000  -3.1391e-14 |
+ writing big output now 
+Wrote bigoutput and bodywt for last_phase in REPORT_SECTION and before hessian, no benchmark or forecast 
+Estimating row 1 out of 1 for hessian
+do benchmark and forecast if requested in sdphase
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+Estimated covariance matrix may not be positive definite
+ 0.202642
+
+In final section 
+Finish time: Tue Nov 01 10:30:18 2022
+Elapsed time: 0 hours, 0 minutes, 21 seconds.
+ Iterations: 8 -log(L): 1.44768e+08
+Final gradient: 3.13908e-14
+
+ finished COVAR.SSO
+ finished forecast
+ finished StdDev quantities
+ mceval counter: 0
+ finished posteriors
+ finished SS_summary.sso
+ writing big output now 
+ finished report.sso
+data.ss_new with N replicates: 2 finished
+ Write new starter file 
+ Write new forecast file 
+ Write new control file 
+dynamic Bzero in FINAL_SECTION:  finished 
+setup_benchmark: 
+SPR_profile:  finished 
+Global_MSY:  finished 
+
+!!  Run has completed  !!            See warning.sso for N warnings: 6
